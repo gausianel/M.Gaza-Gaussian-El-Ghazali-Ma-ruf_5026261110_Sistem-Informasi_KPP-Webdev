@@ -1,16 +1,13 @@
-# M.Gaza-Gaussian-El-Ghazali-Ma-ruf_5026261110_Sistem-Informasi_KPP-Webdev.
-
 # Lentera Kata
- 
-Landing page buat komunitas baca mahasiswa bernama Lentera Kata. Gw bikin ini buat tugas landing page pakai HTML dan CSS doang, tanpa JavaScript.
- 
-Isinya ada navbar, hero, about us (3 kegiatan komunitas), form daftar, sama footer yang isinya kontak.
- 
-## Peserta
- 
-Nama: [isi nama lengkap lo]
- 
-## Cara lihat
- 
-Download atau clone repo ini, terus buka `index.html` di browser.
- 
+
+A landing page for a student reading community called Lentera Kata. I built it for a landing page assignment using only HTML and CSS, with no JavaScript.
+
+It includes a navbar, a hero section, an About Us section (three community activities), a sign-up form, and a footer with contact info.
+
+## Participant
+
+Name: M.Gaza Gaussian El-Ghazali Ma'ruf
+
+## How to view
+
+Download or clone this repo, then open `index.html` in your browser.
