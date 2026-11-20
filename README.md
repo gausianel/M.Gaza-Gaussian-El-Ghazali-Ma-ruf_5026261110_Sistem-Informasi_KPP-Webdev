@@ -11,3 +11,6 @@ Name: M.Gaza Gaussian El-Ghazali Ma'ruf
 ## How to view
 
 Download or clone this repo, then open `index.html` in your browser.
+
+And Web also can opened by using this link
+https://gausianel.github.io/M.Gaza-Gaussian-El-Ghazali-Ma-ruf_5026261110_Sistem-Informasi_KPP-Webdev./
