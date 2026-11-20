@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lentera Kata | Reading Community for Everyone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="wordmark" href="#home">Lentera Kata</a>
+      <input class="nav-toggle-input" type="checkbox" id="nav-toggle" aria-label="Toggle navigation menu" aria-controls="primary-navigation">
+      <label class="nav-toggle" for="nav-toggle" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <ul class="nav-links" id="primary-navigation">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#join">Join Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero">
+      <div class="hero-inner container">
+        <div class="hero-text">
+          <h1>A little space for stories, and the people who share them.</h1>
+          <p>
+            Lentera Kata is a reading community for students who love books,
+            good conversation, and meeting people who read too.
+          </p>
+          <div class="hero-actions">
+            <a href="#join" class="btn btn-primary">Join Our Community</a>
+            <a href="#about" class="btn">Discover How It Works</a>
+          </div>
+        </div>
+
+        <!-- Inline SVG book stack: no image files, nothing can break -->
+        <div class="hero-art">
+          <svg viewBox="0 0 360 280" role="img" aria-label="Illustration of three stacked books with a bookmark">
+            <rect class="svg-shelf" x="30" y="248" width="300" height="10" rx="5"/>
+
+            <rect class="svg-cover-a" x="60" y="200" width="240" height="48" rx="6"/>
+            <rect class="svg-pages" x="78" y="207" width="222" height="34" rx="3"/>
+
+            <rect class="svg-cover-b" x="84" y="152" width="200" height="48" rx="6"/>
+            <rect class="svg-pages" x="102" y="159" width="182" height="34" rx="3"/>
+
+            <rect class="svg-cover-c" x="70" y="104" width="214" height="48" rx="6"/>
+            <rect class="svg-pages" x="88" y="111" width="196" height="34" rx="3"/>
+
+            <polygon class="svg-ribbon" points="236,96 258,96 258,142 247,132 236,142"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About Us ===== -->
+    <section id="about" class="features">
+      <div class="container">
+        <h2>About Us</h2>
+        <p class="section-intro">Three simple ways we read together.</p>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-number" aria-hidden="true">01</span>
+            <h3>Monthly Reading</h3>
+            <p>One book, one month, and a journey we share together.</p>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-number" aria-hidden="true">02</span>
+            <h3>Cozy Discussions</h3>
+            <p>A welcoming space to exchange thoughts, stories, and perspectives.</p>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-number" aria-hidden="true">03</span>
+            <h3>Book Exchange</h3>
+            <p>Pass a story along and discover your next favorite read.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== JOIN ===== -->
+    <section id="join" class="join">
+      <div class="join-inner container">
+        <div class="join-text">
+          <h2>What Are You Waiting For? Let's Join Us!</h2>
+          <p>Every story begins with a simple hello. Come find your place in our reading circle.</p>
+        </div>
+
+        <form class="join-form" action="#" method="post">
+          <div class="form-field">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full_name" autocomplete="name" placeholder="e.g. Nadia Putri" required>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="e.g. nadia@email.com" required>
+          </div>
+
+          <div class="form-field">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="e.g. +62 812-3456-7890" required>
+          </div>
+
+          <div class="form-field">
+            <label for="reason">Why do you want to join?</label>
+            <textarea id="reason" name="reason" rows="2" placeholder="e.g. I enjoy reading and would love to discuss books with others." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit Application</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="contact" class="site-footer">
+    <div class="footer-inner container">
+      <div class="footer-brand-block">
+        <a class="footer-brand" href="#home">Lentera Kata</a>
+        <p class="footer-tagline">A little space for stories, and the people who share them.</p>
+      </div>
+
+      <nav aria-label="Footer menu">
+        <h2 class="footer-heading">Menu</h2>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#join">Join Us</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <h2 class="footer-heading">Contact Us</h2>
+        <ul class="footer-links footer-contact-links">
+          <li>
+            <a href="mailto:hello@lenterakata.example">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                <path d="m4 7 8 6 8-6"></path>
+              </svg>
+              <span>hello@lenterakata.example</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/lenterakata/">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect>
+                <circle cx="12" cy="12" r="3.5"></circle>
+                <circle class="icon-dot" cx="17.5" cy="6.5" r="0.8"></circle>
+              </svg>
+              <span>Instagram: @lenterakata</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/lenterakata">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="m21 3-7.5 18-3.8-7.7L2 9.5 21 3Z"></path>
+                <path d="m9.7 13.3 5.1-4.8"></path>
+              </svg>
+              <span>Telegram: Lentera Kata Chat</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p class="copyright">&copy; 2026 Lentera Kata</p>
+    </div>
+  </footer>
+
+</body>
+</html>
