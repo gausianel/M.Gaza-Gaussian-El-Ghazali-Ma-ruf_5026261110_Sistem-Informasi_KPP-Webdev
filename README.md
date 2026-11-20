@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lentera Kata
 
 A landing page for a student reading community called Lentera Kata. I built it for a landing page assignment using only HTML and CSS, with no JavaScript.
@@ -14,3 +15,6 @@ Download or clone this repo, then open `index.html` in your browser.
 
 And Web also can opened by using this link
 https://gausianel.github.io/M.Gaza-Gaussian-El-Ghazali-Ma-ruf_5026261110_Sistem-Informasi_KPP-Webdev./
+=======
+# M.Gaza-Gaussian-El-Ghazali-Ma-ruf_5026261110_Sistem-Informasi_KPP-Webdev
+>>>>>>> f26491bb5446c065b59db7eee47dd1fef0835343
